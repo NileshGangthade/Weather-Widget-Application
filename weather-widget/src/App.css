@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* search  Box */
+
+.search label {
+  color: white;
+}
+
+.search input {
+  color: white;
+}
+
+.search .MuiInput-underline:before {
+  border-bottom: 1px solid white;
+}
+
+/* .search .MuiInput-underline:after {
+  border-bottom: 2px solid white;
+} */
+
+.inputs{
+  margin-bottom: 1rem;
+}
+
+.weatherImage{
+  background-color:rgb(17, 218, 41);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: fit-content;
+  justify-self: center;
+  height: 80px;
+  margin-bottom: 1rem;
+  margin-top: 0.7rem;
+  box-shadow: 4px 4px 10px black;
+}
